@@ -1,0 +1,33 @@
+# Dependencies
+/vendor/
+
+# Composer Stuff
+composer.lock
+
+# Local Config file
+config.php
+
+# Any IDE/DEV Stuff
+.idea/
+.vscode/
+.settings/
+.project/
+*.swp
+*.swo
+*.pid
+*.sock
+*~
+
+# Runtime files, logs, etc
+/log/*
+*.log
+*.cache
+
+# Any System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Build stuff and artifacts
+/*.phar

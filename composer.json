@@ -1,0 +1,38 @@
+{
+    "name": "strangelab-dev/quark-todo",
+    "description": "PHP Websocket application for simple collaborative todo-lists",
+    "keywords": ["quark", "todo", "websocket", "collaboration", "php", "realtime"],
+    "homepage": "https://github.com/StrangeAntiquarkLab/QuarkTodo",
+    "license": "Fuck the GPL License -> https://github.com/StrangeAntiquarkLab/QuarkTodo/blob/master/LICENSE.txt",
+    "authors": [ {
+        "name": "Strange AntiQuark Dev",
+        "email": "admin@strangelab.dev",
+        "homepage": "https://strangelab.dev",
+        "role": "Maintainer"
+    } ],
+
+    "type": "project",
+    "version": "0.0.1",
+
+    "require": {
+        "php": "^8.1",
+        "cboden/ratchet": "^0.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "QuarkTodo\\": "src/"
+        }
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "10.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "QuarkTodo\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
