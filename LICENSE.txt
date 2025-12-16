@@ -1,0 +1,39 @@
+The FUCK THE GPL License
+Preamble: This license exists to grant broad freedoms while explicitly prohibiting entanglement with predatory copyleft licensing systems.
+
+1. Grant of Rights
+The copyright holder(s) grant anyone a perpetual, worldwide, non-exclusive, royalty-free, irrevocable permission to:
+
+Use the Work for any purpose, private or commercial, under the conditions presented in this license.
+
+Copy, modify, and create derivative works from the Work.
+
+Redistribute the Work or derivatives, in source or object form.
+
+2. Conditions
+The only conditions to the above grants are:
+
+License Inclusion: Any copy or substantial portion of the Work must include a copy of this FUCK THE GPL license. If included as a module in a larger project, it is sufficient to include the license in the subfolder where the licensed module resides and simply point to the existence of that license for the module in the overall projects license.
+
+Anti-Virality Clause: The Work, or any derivative work created from it, MAY NOT be distributed, linked, included, combined, or otherwise made part of any project, work, or codebase that is subject to, 
+or governed in whole or in part by, any license in the GNU family of licenses (including but not limited to GPL, LGPL, or AGPL of any version), or any other license that requires, as a condition of use, modification, or distribution, that such project or derivative work be:
+
+Disclosed or distributed in source code form; or
+
+Licensed under specific terms; or
+
+Allows recipients to modify the work under the same license.
+This prohibition is a fundamental and non-severable condition of this license.
+
+3. Termination for Non-Compliance
+If any recipient fails to comply with any condition of this license, all rights granted herein are immediately and automatically terminated. To regain rights, the recipient must cease all violation and obtain explicit permission from the copyright holder(s).
+
+4. Scope Limitation
+This license applies only to the Work as defined by its copyright holders. It does not apply to Third-party code included or referenced by the Work.
+Such components remain governed solely by their own respective licenses.
+
+4. Contributor Agreement
+By contributing to the Work, each contributor grants the same permissions and agrees to the same conditions listed in this license for their contributions, and confirms they have the right to do so. These grants are irrevocable.
+
+5. Disclaimer
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM ARISING FROM THE WORK.
