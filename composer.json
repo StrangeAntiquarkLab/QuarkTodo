@@ -33,6 +33,7 @@
         }
     },
     "scripts": {
-        "test": "phpunit"
+        "test": "phpunit",
+        "test:unit": "phpunit"
     }
 }

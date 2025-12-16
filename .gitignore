@@ -22,6 +22,7 @@ config.php
 /log/*
 *.log
 *.cache
+*.tmp
 
 # Any System files
 .DS_Store
