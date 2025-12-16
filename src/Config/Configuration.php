@@ -10,14 +10,8 @@
  * @license: https://github.com/StrangeAntiquarkLab/QuarkTodo/blob/master/LICENSE.txt
  */
 
-require __DIR__ . '/../vendor/autoload.php';
+namespace QuarkTodo\Config;
 
-use QuarkTodo\Frontend\MainPage;
-
-$data = [
-    'title' => 'Awesome ToDo',
-    'description' => 'A collaborative todo-list made with PHP, WebSockets and Ratchet',
-    'style' => 'style.css'
-];
-
-echo MainPage::output($data);
+class Configuration {
+    public const APP_PASSWORD = null;
+}

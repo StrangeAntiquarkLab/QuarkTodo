@@ -9,15 +9,11 @@
  * Licensed under the "Fuck the GPL License" -> License.md in the main directory
  * @license: https://github.com/StrangeAntiquarkLab/QuarkTodo/blob/master/LICENSE.txt
  */
+?>
+<x-header title="{{ title }}" css="{{ style }}">
+    <?= $description ?? "A collaborative todo-list made with PHP, WebSockets and Ratchet" ?>
+</x-header>
 
-require __DIR__ . '/../vendor/autoload.php';
+<body>
 
-use QuarkTodo\Frontend\MainPage;
-
-$data = [
-    'title' => 'Awesome ToDo',
-    'description' => 'A collaborative todo-list made with PHP, WebSockets and Ratchet',
-    'style' => 'style.css'
-];
-
-echo MainPage::output($data);
+</body>

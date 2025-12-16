@@ -10,14 +10,15 @@
  * @license: https://github.com/StrangeAntiquarkLab/QuarkTodo/blob/master/LICENSE.txt
  */
 
-require __DIR__ . '/../vendor/autoload.php';
+namespace QuarkTodo\Frontend;
 
-use QuarkTodo\Frontend\MainPage;
+use QuarkTodo\Frontend\Render\View;
 
-$data = [
-    'title' => 'Awesome ToDo',
-    'description' => 'A collaborative todo-list made with PHP, WebSockets and Ratchet',
-    'style' => 'style.css'
-];
-
-echo MainPage::output($data);
+class MainPage {
+    public static function output($data = []) {
+        if (!isset($data['title'])) $data['title'] = 'Quark ToDo';
+        if (!isset($data['description'])) $data['description'] = 'A collaborative todo-list made with PHP, WebSockets and Ratchet';
+        if (!isset($data['style'])) $data['style'] = false;
+        return View::render('MainPage', $data);
+    }
+}
